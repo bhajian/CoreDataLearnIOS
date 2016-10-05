@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C7BA1521DA5251D005AF9E0 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7BA1511DA5251D005AF9E0 /* TableViewController.swift */; };
 		4C7F3FC61DA51D870073F7EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7F3FC51DA51D870073F7EC /* AppDelegate.swift */; };
 		4C7F3FC81DA51D870073F7EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7F3FC71DA51D870073F7EC /* ViewController.swift */; };
 		4C7F3FCB1DA51D870073F7EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C7F3FC91DA51D870073F7EC /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 		4C7F3FD31DA51D870073F7EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C7F3FD11DA51D870073F7EC /* LaunchScreen.storyboard */; };
 		4C7F3FDE1DA51D870073F7EC /* testCoreDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7F3FDD1DA51D870073F7EC /* testCoreDataTests.swift */; };
 		4C7F3FE91DA51D870073F7EC /* testCoreDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7F3FE81DA51D870073F7EC /* testCoreDataUITests.swift */; };
+		4C7F3FF81DA522F50073F7EC /* PersonCoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7F3FF61DA522F50073F7EC /* PersonCoreDataClass.swift */; };
+		4C7F3FF91DA522F50073F7EC /* PersonCoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7F3FF71DA522F50073F7EC /* PersonCoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C7BA1511DA5251D005AF9E0 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewController.swift; path = ../TableViewController.swift; sourceTree = "<group>"; };
 		4C7F3FC21DA51D870073F7EC /* testCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C7F3FC51DA51D870073F7EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C7F3FC71DA51D870073F7EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +53,8 @@
 		4C7F3FE41DA51D870073F7EC /* testCoreDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testCoreDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C7F3FE81DA51D870073F7EC /* testCoreDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testCoreDataUITests.swift; sourceTree = "<group>"; };
 		4C7F3FEA1DA51D870073F7EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C7F3FF61DA522F50073F7EC /* PersonCoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonCoreDataClass.swift; sourceTree = "<group>"; };
+		4C7F3FF71DA522F50073F7EC /* PersonCoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonCoreDataProperties.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,8 @@
 		4C7F3FB91DA51D870073F7EC = {
 			isa = PBXGroup;
 			children = (
+				4C7F3FF61DA522F50073F7EC /* PersonCoreDataClass.swift */,
+				4C7F3FF71DA522F50073F7EC /* PersonCoreDataProperties.swift */,
 				4C7F3FC41DA51D870073F7EC /* testCoreData */,
 				4C7F3FDC1DA51D870073F7EC /* testCoreDataTests */,
 				4C7F3FE71DA51D870073F7EC /* testCoreDataUITests */,
@@ -99,6 +107,7 @@
 		4C7F3FC41DA51D870073F7EC /* testCoreData */ = {
 			isa = PBXGroup;
 			children = (
+				4C7BA1511DA5251D005AF9E0 /* TableViewController.swift */,
 				4C7F3FC51DA51D870073F7EC /* AppDelegate.swift */,
 				4C7F3FC71DA51D870073F7EC /* ViewController.swift */,
 				4C7F3FC91DA51D870073F7EC /* Main.storyboard */,
@@ -265,6 +274,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C7F3FF81DA522F50073F7EC /* PersonCoreDataClass.swift in Sources */,
+				4C7BA1521DA5251D005AF9E0 /* TableViewController.swift in Sources */,
+				4C7F3FF91DA522F50073F7EC /* PersonCoreDataProperties.swift in Sources */,
 				4C7F3FCE1DA51D870073F7EC /* testCoreData.xcdatamodeld in Sources */,
 				4C7F3FC81DA51D870073F7EC /* ViewController.swift in Sources */,
 				4C7F3FC61DA51D870073F7EC /* AppDelegate.swift in Sources */,
@@ -516,6 +528,7 @@
 				4C7F3FEF1DA51D870073F7EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C7F3FF01DA51D880073F7EC /* Build configuration list for PBXNativeTarget "testCoreDataTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +537,7 @@
 				4C7F3FF21DA51D880073F7EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C7F3FF31DA51D880073F7EC /* Build configuration list for PBXNativeTarget "testCoreDataUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +546,7 @@
 				4C7F3FF51DA51D880073F7EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
